@@ -58,6 +58,7 @@ public class PerformanceTracker {
     // CSV строка (для анализа в Excel / pandas)
     public String toCSV() {
         try (FileWriter writer = new FileWriter("result.csv", true)) {
+            writer.write("Comparisons,Swaps,Accesses,TimeMs\n");
             writer.write(String.format("%d,%d,%d,%d\n",
                     comparisons, swaps, accesses, getTimeMs()));
         } catch (Exception e) {

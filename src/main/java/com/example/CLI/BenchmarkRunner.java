@@ -17,6 +17,7 @@ public class BenchmarkRunner {
 
         int[] arr = generateArray(size, type);
         sorter.sort(arr, metrics);
+        metrics.toCSV();
 
         System.out.println("Algorithm: " + sorter.name());
         System.out.println(metrics);
