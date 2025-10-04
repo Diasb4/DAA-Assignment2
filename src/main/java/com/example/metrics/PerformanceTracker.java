@@ -1,5 +1,6 @@
 package com.example.metrics;
 
+import java.io.FileWriter;
 import java.util.concurrent.TimeUnit;
 
 public class PerformanceTracker {
@@ -56,6 +57,12 @@ public class PerformanceTracker {
 
     // CSV строка (для анализа в Excel / pandas)
     public String toCSV() {
+        try (FileWriter writer = new FileWriter("result.csv", true)) {
+            writer.write(String.format("%d,%d,%d,%d\n",
+                    comparisons, swaps, accesses, getTimeMs()));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return String.format("%d,%d,%d,%d",
                 comparisons, swaps, accesses, getTimeMs());
     }

@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class BenchmarkRunner {
     public static void main(String[] args) {
-        int size = 100000;
+        int size = 10000;
         String type = "random";
 
         Sorter sorter = new InsertionSort();
