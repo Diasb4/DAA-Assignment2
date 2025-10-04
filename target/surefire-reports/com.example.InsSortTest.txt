@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: com.example.InsSortTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.146 s <<< FAILURE! - in com.example.InsSortTest
+testEmptyArray(com.example.InsSortTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testEmptyArray(InsSortTest.java:32)
+
+testArrayWithDuplicates(com.example.InsSortTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testArrayWithDuplicates(InsSortTest.java:72)
+
+testReverseSortedArray(com.example.InsSortTest)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testReverseSortedArray(InsSortTest.java:62)
+
+testAlreadySortedArray(com.example.InsSortTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testAlreadySortedArray(InsSortTest.java:52)
+
+testLargeArray(com.example.InsSortTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testLargeArray(InsSortTest.java:89)
+
+testSingleElementArray(com.example.InsSortTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testSingleElementArray(InsSortTest.java:42)
+
+testNullArray(com.example.InsSortTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.Error>
+	at com.example.InsSortTest.testNullArray(InsSortTest.java:24)
+
+testInsertionSort(com.example.InsSortTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method insertionSort(int[], PerformanceTracker) is undefined for the type InsertionSort
+
+	at com.example.InsSortTest.testInsertionSort(InsSortTest.java:16)
+
